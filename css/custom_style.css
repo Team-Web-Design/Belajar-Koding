@@ -1,0 +1,175 @@
+.bg-dongker{
+	background-color: #111340;
+}
+.text{
+	color: #f6f6f6;
+}
+.isi{
+	margin-top: 30px;
+	text-align: center;
+}
+.garis{
+	width: 90px;
+	border: 2px solid #40a8c4;
+}
+.card-body{
+	text-align: left;
+}
+.card-title{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #40a8c4;
+}
+.card1{
+	margin-right: 80px;
+	border: 0;
+	float: right;
+}
+.card2{
+	margin-left: 100px;
+	border: 0;
+	float: left;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .card2 {
+    width: 150px;
+    float: none;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+}
+.card-img-top{
+	height: 250px;
+	width: 250px;
+}
+.posisi{
+	margin-bottom: 30px;
+	margin-left: -15px;
+}
+.dropdown-toggle{
+	text-decoration: none;
+	color: black;
+}
+.dropdown-toggle:hover{
+	color: #40a8c4;
+	text-decoration: none;
+}
+.bg-sky{
+	background-color: #40a8c4;
+	color: #f6f6f6;
+	float: right;
+}
+.bg-sky:hover{
+	background-color: #383836;
+	color: #f6f6f6;
+}
+.jarak{
+	padding-bottom: 20px;
+}
+.footer{
+	width: 100%;
+	background-color: #c0c5dc;
+	float: right;
+	margin-top: 50px;
+}
+.atas{
+	width: 100%;
+	margin-top: 50px;
+}
+.judul{
+	width: 40%;
+	float: left;
+}
+.layanan, .ikuti{
+	width: 20%;
+	float: right;
+}
+.lis{
+	border: 0;
+	background-color: transparent;
+	padding-left: -20px;
+}
+.tanggal{
+	width: 100%;
+	height: 50px;
+	float: left;
+	padding-top: 20px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .footer {
+    width: 100%;
+    float: left;
+  }
+  .judul{
+  	float: none;
+  	width: 100%;
+  	text-align: center;
+  }
+  .layanan, .ikuti{
+  	float: left;
+  	width: 35%;
+  	margin-top: 50px;
+  	margin-left: 15%;
+  }
+  .tanggal{
+  	text-align: center;
+  	margin-top: 30px;
+  }
+}
+.jumbo{
+	background: transparent;
+}
+.faq_judul{
+	font-size: 40px;
+}
+.sub_judul{
+	font-size: 30px
+}
+.kiri{
+	width: 30%;
+	float: left;
+}
+.pertanyaan{
+	width: 300px;
+}
+.tengah{
+	float: left;
+	width: 50%;
+	height: 700px;
+	margin-left: 30px;
+}
+.jawaban{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(235, 235, 235);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.teks{
+	width: 95%;
+	text-align: justify;
+}
+.btn-color{
+	background-color: #b63cdf;
+	color: white;
+}
+.btn-color:hover{
+	background-color: rgb(32, 32, 32);
+	color: white;
+}
+.form_pertanyaan{
+	width: 525px;
+}
+.btn_send{
+	float: right;
+	margin-top: 10px;
+}
+.isi_post{
+	float: left;
+	margin-top: 50px;
+}
+.kanan{
+	padding-left: 20px;
+}
