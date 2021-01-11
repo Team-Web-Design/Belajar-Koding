@@ -128,6 +128,7 @@
 	font-size: 30px
 }
 .kiri{
+	margin-top: 25px;
 	width: 30%;
 	float: left;
 }
@@ -138,14 +139,16 @@
 	float: left;
 	width: 50%;
 	height: 700px;
-	margin-left: 30px;
+	margin-left: -10px;
+	margin-top: 25px;
 }
 .jawaban{
 	width: 100%;
 	height: 300px;
-	background-color: rgb(235, 235, 235);
 	padding-left: 20px;
 	padding-top: 20px;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 5px;
 }
 .teks{
 	width: 95%;
@@ -162,6 +165,9 @@
 .form_pertanyaan{
 	width: 525px;
 }
+.lebar_form{
+	width: 200px;
+}
 .btn_send{
 	float: right;
 	margin-top: 10px;
@@ -171,5 +177,133 @@
 	margin-top: 50px;
 }
 .kanan{
-	padding-left: 20px;
+	float: left;
+	padding-left: 25px;
+	margin-top: -10px;
+	text-align: center;
 }
+.enter{
+	margin-top: 40px;
+}
+.menu:hover{
+	background-color: #b63cdf;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+@media only screen and (max-width:1200px) {
+	/* For tablets: */
+	.faq_judul{
+		text-align: center;
+	}
+	.sub_judul{
+		text-align: center;
+	}
+	.pertanyaan{
+		margin-top: 20px;
+		width: 450px;
+		float: left;
+	}
+	.tengah{
+		float: left;
+		width: 100%;
+		height: 700px;
+		margin-left: 2px;
+	}
+	.jawaban{
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		border: 1px solid rgb(221, 221, 221);
+		border-radius: 5px;
+		margin-top: 30px;
+		padding-bottom: 20px;
+	}
+	.enter{
+		margin-left: 5px;
+		height: 180px;
+	}
+	.form_pertanyaan{
+		width: 100%;
+	}
+	.kanan{
+		float: left;
+		margin-top: -200px;
+		width: 100%;
+	}
+	.isi_post{
+		float: left;
+		padding-left: 20px;
+	}
+	.lebar_form{
+		width: 100%;
+	}
+	.profil{
+		float: left;
+		margin-left: -100px;
+		width: 450px;
+	}
+	.label{
+		font-size: 15px;
+	}
+	.output{
+		font-size: 15px;
+	}
+	.update{
+		float: right;
+		margin-right: 500px;
+		margin-top: -20px;
+	}
+  }
+  .bagian_profil{
+	  background-color: transparent;
+  }
+  .bungkus{
+	  width: 80%;
+	  margin-left: 100px;
+	  height: 350px;
+  }
+  .judul_profil{
+	  text-align: center;
+  }
+  .foto_avatar{
+	  background-color: transparent;
+	  border: none;
+  }
+  .profil{
+	  padding-top: 30px;
+	  font-size: 20px;
+  }
+  .foto{
+	  float: left;
+	  padding: 10px 0 0 10px;
+  }
+  .change_img{
+	  text-align: center;
+	  margin-left: -50px;
+	  margin-top: 20px;
+  }
+  .label{
+	  float: left;
+	  background-color: transparent;
+	  margin-left: 70px;
+	  height: 200px;
+  }
+  .form_label{
+	height: 200px;
+}
+  .label_list{
+	  border: 0;
+	  background-color: transparent;
+	  padding-top: 20px;
+  }
+  .output{
+	border: 1px solid #b63cdf;
+	background-color: transparent;
+	padding-top: 20px;
+	margin-left: 40px;
+  }
+  .update{
+	  float: right;
+	  margin-right: 10px;
+  }
