@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/alian.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../../../assets/img/title-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navigasi">
+        <div class="container">
+            <a class="navbar-brand text-light" href="../../../home.html">Belajar Koding</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../langganan.html">Langganan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../bantuan.html">Bantuan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Profile</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- konten -->
+    <div class="container mt-5">
+        <div class="row border-bottom pb-3">
+            <div class="col-sm">
+                <h1>Cascading Style Sheet</h1>
+            </div>
+            <div class="col-sm-2">
+                <img src="../../../assets/img/css-icon.png" width="100">
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="nav flex-column nav-pills col-sm-2 mt-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-pertama-tab" data-toggle="pill" href="#v-pills-pertama" role="tab" aria-controls="v-pills-pertama" aria-selected="true">Apa Itu CSS ? </a>
+                <a class="nav-link" id="v-pills-kedua-tab" data-toggle="pill" href="#v-pills-kedua" role="tab" aria-controls="v-pills-kedua" aria-selected="false">Penulisan CSS</a>
+                <a class="nav-link" id="v-pills-ketiga-tab" data-toggle="pill" href="#v-pills-ketiga" role="tab" aria-controls="v-pills-ketiga" aria-selected="false">Selektor CSS</a>
+                <a class="nav-link" id="v-pills-keempat-tab" data-toggle="pill" href="#v-pills-keempat" role="tab" aria-controls="v-pills-keempat" aria-selected="false">Komentar pada CSS</a>
+            </div>
+            <div class="tab-content isi-konten mt-2 col-sm p-5" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-pertama" role="tabpanel" aria-labelledby="v-pills-pertama-tab">
+                    <p>CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.</p>
+                    <p>CSS dibuat dan dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. Anda hanya perlu menulis markup untuk situs.</p>
+                    <p>Tags, seperti font, diperkenalkan di HTML versi 3.2, dan ketika itu menyebabkan banyak masalah bagi developer. Karena website memiliki berbagai font, warna background, dan style, maka untuk menulis kembali (rewrite) kode memerlukan
+                        proses yang sangat panjang dan sulit. Oleh sebab itu, W3C membuat CSS untuk menyelesaikan masalah ini.</p>
+                    <p>HTML dan CSS memiliki keterikatan yang erat. Karena HTML adalah bahasa markup (fondasi situs) dan CSS memperbaiki style (untuk semua aspek yang terkait dengan tampilan website), maka kedua bahasa pemrograman ini harus berjalan beriringan.</p>
+                    <p>Tak hanya penting di sisi teknis, CSS juga berpengaruh pada tampilan sebuah website. Tentunya Anda tidak ingin website terlihat seperti situs yang ‘telanjang’ tanpa modifikasi apa pun, bukan?</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-kedua" role="tabpanel" aria-labelledby="v-pills-kedua-tab">
+                    <p>Aturan Penulisan CSS terdiri dari selektor dan blok deklarasi:</p>
+                    <center><img src="https://www.w3schools.com/css/selector.gif" style="width:50vw;"></center>
+                    <ul class="mt-2">
+                        <li>Selektor menunjuk ke elemen HTML yang ingin Anda gaya.</li>
+                        <li>Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan oleh titik koma.
+                        </li>
+                        <li>Setiap deklarasi menyertakan nama properti CSS dan nilai, dipisahkan oleh titik dua.</li>
+                        <li>Beberapa deklarasi CSS dipisahkan dengan titik koma, dan blok deklarasi dikelilingi oleh tanda kurung kurawal.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-ketiga" role="tabpanel" aria-labelledby="v-pills-ketiga-tab">
+                    <p>Pemilih CSS digunakan untuk "menemukan" (atau memilih) elemen HTML yang ingin Anda gaya.</p>
+                    <p>Kita dapat membagi pemilih CSS menjadi lima kategori:</p>
+                    <ul>
+                        <li>Selektor sederhana (pilih elemen berdasarkan nama, id, kelas)</li>
+                        <li>Pemilih kombinator (pilih elemen berdasarkan hubungan tertentu di antara mereka)</li>
+                        <li>Pemilih kelas semu (pilih elemen berdasarkan status tertentu)</li>
+                        <li>Pemilih elemen semu (pilih dan gaya bagian dari elemen)</li>
+                        <li>Atribut selektor (pilih elemen berdasarkan atribut atau nilai atribut)</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-keempat" role="tabpanel" aria-labelledby="v-pills-keempat-tab">
+                    <p>Komentar digunakan untuk menjelaskan kode, dan dapat membantu ketika Anda mengedit kode sumber di lain waktu.</p>
+                    <p>Komentar diabaikan oleh browser.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+        <p>2021.Belajar Koding</p>
+    </div>
+    <!-- Akhir Footer -->
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

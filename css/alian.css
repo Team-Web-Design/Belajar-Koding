@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navigasi {
+    background-color: #111340!important;
+}
+
+.navigasi .nav-link:hover {
+    color: white!important;
+    transition: .5s;
+}
+
+
+/* Login */
+
+.form-login {
+    background-color: #111340;
+    padding: 4vw;
+    border-radius: 35px;
+    border-bottom: 5px solid gray;
+}
+
+.form-login span {
+    background-color: #347dc6;
+    border: none;
+}
+
+.form-login input {
+    padding: 10px;
+    border: none;
+}
+
+
+/* Home */
+
+#line-title {
+    width: 150px;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #cccccc;
+}
+
+.kelas-free .card {
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 5px solid black;
+    margin-top: 20px;
+}
+
+.kelas-css {
+    background-color: #347dc6;
+}
+
+.kelas-html {
+    background-color: #ff6c39;
+}
+
+.kelas-js {
+    background-color: #f0db4f;
+}
+
+.kelas-css:hover,
+.kelas-html:hover,
+.kelas-js:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition: .3s;
+    border-bottom: 5px solid #cae1ff;
+}
+
+
+/* course */
+
+.isi-konten {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(189, 189, 189);
+    border-radius: 10px;
+}
+
+.isi-konten {
+    text-align: justify;
+}
+
+
+/* langganan */
+
+.kelas-premium .card {
+    border: none;
+    background-color: rgb(213, 213, 213);
+    border-radius: 30px;
+    border-bottom: 5px solid black;
+}
+
+.kelas-kotlin:hover,
+.kelas-py:hover,
+.kelas-java:hover {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.kelas-kotlin:hover {
+    background-color: #347dc6;
+}
+
+.kelas-py:hover {
+    background-color: #f0db4f;
+}
+
+.kelas-java:hover {
+    background-color: #ff6c39;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #c0c5dc;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
