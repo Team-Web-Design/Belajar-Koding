@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Kotlin</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/alian.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../../../assets/img/title-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navigasi">
+        <div class="container">
+            <a class="navbar-brand text-light" href="../../../home.html">Belajar Koding</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../langganan.html">Langganan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="../../../bantuan.html">Bantuan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Profile</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- konten -->
+    <div class="container mt-5">
+        <div class="row border-bottom pb-3">
+            <div class="col-sm">
+                <h1>Kotlin</h1>
+                <p>Selamat Datang Di Kelas Premium Belajar Koding !</p>
+            </div>
+            <div class="col-sm-2">
+                <img src="../../../assets/img/kt-icon.png" width="100">
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="nav flex-column nav-pills col-sm-2 mt-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-pertama-tab" data-toggle="pill" href="#v-pills-pertama" role="tab" aria-controls="v-pills-pertama" aria-selected="true">Perkenalan</a>
+                <a class="nav-link" id="v-pills-kedua-tab" data-toggle="pill" href="#v-pills-kedua" role="tab" aria-controls="v-pills-kedua" aria-selected="false">Persiapan</a>
+                <a class="nav-link" id="v-pills-ketiga-tab" data-toggle="pill" href="#v-pills-ketiga" role="tab" aria-controls="v-pills-ketiga" aria-selected="false">Sintaks Dasar Kotlin</a>
+                <a class="nav-link" id="v-pills-keempat-tab" data-toggle="pill" href="#v-pills-keempat" role="tab" aria-controls="v-pills-keempat" aria-selected="false">Input Output</a>
+                <a class="nav-link" id="v-pills-kelima-tab" data-toggle="pill" href="#v-pills-kelima" role="tab" aria-controls="v-pills-kelima" aria-selected="false">Cetak Sertifikat</a>
+            </div>
+            <div class="tab-content isi-konten mt-2 col-sm p-5" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-pertama" role="tabpanel" aria-labelledby="v-pills-pertama-tab">
+                    <h2 class="font-weight-bold">Berkanalan Dengan Kotlin</h2>
+                    <p>Kotlin adalah bahasa pemrograman yang diperkenalkan oleh JetBrains, perancang resmi Java IDE paling cerdas bernama Intellij IDEA. Ini adalah bahasa yang diketik sangat statis yang berjalan di JVM.</p>
+                    <img src="https://www.kodingindonesia.com/wp-content/uploads/2018/06/kotlin_logo-300x67.png" width="300">
+                    <p class="mt-2">Pada 2017, Google mengumumkan Kotlin adalah bahasa resmi untuk pengembangan Android. Kotlin adalah bahasa pemrograman open source yang menggabungkan pemrograman berorientasi objek dan fitur fungsional ke dalam platform yang unik.</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-kedua" role="tabpanel" aria-labelledby="v-pills-kedua-tab">
+                    <h2 class="font-weight-bold">Persiapan Instalasi</h2>
+                    <p>Pada persiapan installlasi ini tidak banyak hal yang harus dipersiapkan atau diinstall. Sama halnya ketika kita ingin membuat aplikasi android menggunakan Android Studio, kita hanya perlu menginstall dan setting path JDK. Untuk lebijelasnya
+                        bisa mengikuti tutorial berikut ini:</p>
+                    <ol>
+                        <li>Cara install jdk</li>
+                    </ol>
+                    <p>Selain hal di atas ada satu IDE yang akan kita gunakan yaitu Intelij IDEA Community untuk proses belajar Kotlin Dasar, tetapi jika tidak ingin menggunakan Intelij IDEA kalian juga bisa menggunakan Android Studio. Untuk link download
+                        Intelij IDEA kalian bisa lihat <a href="https://www.jetbrains.com/idea/download/">disini</a>. Sebelum mendownloadnya pastikan kamu memilih terlebih dahulu OS nya dan download yang community.</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-ketiga" role="tabpanel" aria-labelledby="v-pills-ketiga-tab">
+                    <h2 class="font-weight-bold">Sintaks Dasar Kotlin</h2>
+                    <p>Setelah kita menganl dan mempersiapkan peralatan untuk pemrograman Kotlin, selanjutnya kita pelajari aturan dasar penulisan sintaks Kotlin. Agar tidak tersesesat dalam perjalanan mempelajari kotlin 😄 Baiklah, langsung saja kita mulai…</p>
+                    <h3>Struktur Program</h3>
+                    <p>Struktur program Kotlin lebih sederhana dan mudah dipahami daripada Java.</p>
+                    <img src="https://www.petanikode.com/img/kotlin/sintaks-kotlin.png" width="300">
+                    <p>Struktur kode program pada gambar di atas adalah struktur yang paling sederhana.</p>
+                    <ul>
+                        <li>package hello artinya kita membuat sebuah paket bernama hello. Paket dalam kotlin bersifat opsional (boleh ditulis boleh tidak).</li>
+                        <li>fun main(){...} adalah fungsi utama program;</li>
+                        <li>args: Array&lt;String> adalah variabel yang menyimpan argumen;</li>
+                        <li>println() statement atau fungsi untuk menampilkan teks ke layar;</li>
+                        <li>Titik koma (;) pada kotlin bersifat opsional.</li>
+                    </ul>
+                    <h3 class="mt-2">Gaya Case</h3>
+                    <p>Kotlin menggunakan gaya penulisan CamelCase seperti Java.</p>
+                    <p>Contoh:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>var namaVariabel = "nilai";</p>
+                            <p>var akuCintaKamu = true;</p>
+                            <p>class BelajarCoding {...}</p>
+                        </div>
+                    </div>
+                    <p>Pada gaya penulisan CamelCase, nama variabel biasanya diawali dengan huruf kecil. Kemudian, kalau terdiri dari lebih dari satu suku kata…</p>
+                    <p>…suku kata berikutnya diawali dengan huruf kapital.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>var jenisKelamin: String;</p>
+                        </div>
+                    </div>
+                    <p>Lalu, nama class biasanya menggunakan huruf kapital.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>class Robot { ... }
+                            </p>
+                        </div>
+                    </div>
+                    <h3 class="mt-2">Penulisan Komentar</h3>
+                    <p>Penulisan komentar di kotlin sama seperti di Java, yaitu dengan dua cara:</p>
+                    <ol>
+                        <li>Menggunakan garis miring ganda (//) untuk komentar satu baris;</li>
+                        <li>Menggunakan garis miring bintang (/*) untuk komentar lebih dari satu baris.</li>
+                    </ol>
+                    <p>Contoh:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>// ini komentar</p>
+                            <p>println("yoi!")</p>
+                            <p>/*<br> ini juga komentar<br>yang tidak akan dieksekusi oleh komputer.<br>*/</p>
+                        </div>
+                    </div>
+                    <h3 class="mt-2">Blok Kode</h3>
+                    <p>Blok kode merupakan kumpulan dari statement-statement. Blok kode biasanya dibungkus dengan kurung kurawal ({...}).</p>
+                    <p>Contoh Blok kode:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>// blok kode if</p>
+                            <p>if( a == 1 ){<br> println("A sama dengan 1")<br> println("Gue benar kan...")<br> }
+                            </p>
+                            <p>// blok kode if/else</p>
+                            <p>if( hari == "jumat" ){<br> println("Pergi jumatan")<br> println("Hari jum'at barokah...")<br> } else {<br> println("Hari biasa")<br> }
+                            </p>
+                            <p>// blok kode when</p>
+                            <p>when {<br> "orange" in items -> println("bikin jus")<br> "apple" in items -> println("pake apel juga boleh")<br> }
+                            </p>
+                            <p>// blok kode perulangan for</p>
+                            <p>for (item in items) {<br> println(item)
+                                <br> println("sudah diprint...")<br> }
+                            </p>
+                        </div>
+                    </div>
+                    <h3 class="mt-2">Apa selanjutnya…?</h3>
+                    <p>Kita sudah mengetahui struktur dasar penulisan sintaks Kotlin</p>
+                    <p>Selanjutnya, silahkan pelajari tentang cara mengambil input dan variabel.</p>
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-keempat" role="tabpanel" aria-labelledby="v-pills-keempat-tab">
+                    <h2 class="font-weight-bold">Cara Mengambil Input dan Menampilkan Output</h2>
+                    <p>Bukan program komputer namanya kalau tidak memiliki input dan output. Input dan output merupakan komponen wajib setiap program komputer.</p>
+                    <p>Pada kesempatan ini, kita akan belajar cara mengambil input dan Menampilkan output untuk program berbasis teks.</p>
+                    <p>Kotlin telah menyediakan beberapa fungsi untuk mengambil input dan menampilkan output, diantaranya println(), print(), readLine(), Scanner(), dll.</p>
+                    <p>Mari kita bahas semuanya…</p>
+                    <h3 class="mt-2">Menampilkan Output dengan Fungsi println/print</h3>
+                    <p>Fungsi println() dan print() digunakan untuk menampilkan teks atau kalimat.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>fun main(args: Array &lt;String>){
+                                <br> println("Kalimat yang akan ditampilkan")<br> print("kata yang akan ditampilkan") <br> println("Hello World") <br> }
+                            </p>
+                        </div>
+                    </div>
+                    <p>Teks yang ingin ditampilkan harus diapit dengan tanda petik ganda ("...") atau tanda petik tunggal untuk satu karakter.</p>
+                    <p>Kita juga bisa menggunakan tanda petik tiga:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>print("""Contoh Kalimat""")</p>
+                        </div>
+                    </div>
+                    <p>Apa bedanya print() dengan println()?</p>
+                    <ul>
+                        <li>print() untuk menampilkan teks apa adanya.</li>
+                        <li>println() untuk menampilkan teks dalam satu baris.</li>
+                    </ul>
+                    <p>Sebenarnya sama saja seperti fungsi System.out.print() dan System.out.println() pada java.</p>
+                    <p>Pada Kotlin, fungsi tersebut disederhanakan dan ditingkatkan kemampuannya.</p>
+                    <h4 class="mt-2">String Template</h4>
+                    <p>String Template merupakan template untuk menampilkan teks.</p>
+                    <p>Jika pada Java kita menggunakan tanda plus (+) untuk menggabungkan String, maka di Kotlin… selain menggunakan tanda plus, kita juga bisa menggunakan String template dengan simbol dolar ($).</p>
+                    <p>Java:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>System.out.println("Nama: " + nama); <br> System.out.println("Umur: " + umur + " tahun");</p>
+                        </div>
+                    </div>
+
+                    <p>Kotlin:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>println("Nama: $nama") <br> println("Umur: $umur tahun") <br> println("Umur saya " + nama + " tahun")</p>
+                        </div>
+                    </div>
+                    <p>Mana yang lebih sederhana? <br>Tentunya kotlin. <br> Simbol dolar maksudnya untuk mengambil nilai dari variabel dan menampilkannya ke dalam teks. <br>Contoh:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>fun main(args: Array&lt;String>){ <br>
+                                <br> val nama = "Udin" <br> val usia = 13 <br> val alamat = "Bandung" <br>
+                                <br> val template = """ <br> nama: $nama <br> usia: $usia tahun <br> alamat: $alamat <br>
+                                <br> Udin 5 tahun lagi akan berusia ${usia + 5} tahun<br> """
+                                <br> println(template) }
+                            </p>
+                        </div>
+                    </div>
+                    <p>Pada contoh di atas kita menggunakan ${...} untuk melakukan operasi di dalam template string.</p>
+                    <p>Kita juga bisa memanggil fungsi di sana.</p>
+                    <h2 class="mt-2">Mengambil Input dari Keyboard</h2>
+                    <p>Pengguna komputer berinteraksi dengan program menggunakan keyboard dan perangkat masukan lainnya.</p>
+                    <p>Melalui perantara keyboard, pengguna dapat memasukan data ke program. Kemudian program memperosesnya menjadi sebuah informasi.</p>
+                    <p>Ada tiga cara mengambil input dari keyboard:</p>
+                    <ul>
+                        <li>Menggunakan fungsi readLine()</li>
+                        <li>Menggunakan class Scanner</li>
+                        <li>Menggunakan class BufferedReader</li>
+                    </ul>
+                    <p>Mari kita coba satu per satu…</p>
+                    <h3 class="mt-2">Mengambil Input dengan Fungsi readLine()</h3>
+                    <p>Fungsi ini akan mengembalikan nilai String yang Nullable (String?). Artinya, nilai bisa String atau bisa null (kosong).</p>
+                    <p>Hal ini untuk mengurangi terjadinya error NullPointerException.</p>
+                    <p>Contoh:</p>
+                    <p>Mengambil input dan tidak menyimpannya ke dalam variabel.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>fun main(args: Array&lt;String>){ <br> println("Tekan Enter untuk melanjutkan...")<br> readLine()
+                                <br> println("Terima kasih")<br> }
+                            </p>
+                        </div>
+                    </div>
+                    <p>Mengambil input dan menyimpannya ke dalam variabel.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>fun main(args: Array&lt;String>){ <br> // mengambil input <br> print("Inputkan nama: ") <br> val nama = readLine() <br> print("Inputkan umur: ") <br> val umur = readLine() <br>
+                                <br> // menampilkan output <br> println("Namaku $nama saat ini berusia $umur tahun") }
+                            </p>
+                        </div>
+                    </div>
+                    <p>Jika kita ingin melakukan operasi terhadap data yang diinputkan, maka kita harus mengubah tipe datanya.</p>
+                    <p>Misalkan, inputan umur ingin kita tambahkan dengan 2.</p>
+                    <p>Kita bisa menggunakan fungsi Integer.valueOf() atau method toInt().</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>// cara 1 <br> var umurbaru = Integer.valueOf(umur) + 2 <br> // cara 2 <br> var umurbaru = umur!!.toInt() + 2</p>
+                        </div>
+                    </div>
+                    <p>Tanda !! artinya mengizinkan NullPointerException jika variabel umur bernilai null. Pembahasan lebih mendalam tentang ini, bisa dibaca di “ Apa itu Null Safety?”.</p>
+                    <h3>Mengambil Input dengan Class Scanner</h3>
+                    <p>Class Scanner bisa juga kita gunakan pada Kotlin.</p>
+                    <p>Pertama kita harus mengimpor dulu Class Scanner dari paket java.util.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>import java.util.Scanner;</p>
+                        </div>
+                    </div>
+                    <p>Setelah itu baru kita bisa membuat objek Scanner.</p>
+                    <p>Contohnya:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>import java.util.Scanner; <br>
+                                <br> fun main(args: Array&lt;String>) { <br> // membuat objek scanner <br> val input = Scanner(System.`in`) <br>
+                                <br> // mengambil input <br> print("Nama: ") <br> val nama = input.nextLine() <br> print("Umur: ") <br> val umur = input.nextInt() <br>
+                                <br> // menampilkan isi variabel nama dan umur <br> println("Nama kamu adalah $nama dan usianya $umur tahun") }
+                            </p>
+                        </div>
+                    </div>
+                    <p>Perlu diperhatikan: tanda petik yang digunakan pada System.`in` merupakan tanda petik terbalik (back quote), bukan tanda petik biasa.</p>
+                    <h3>Mengambil Input Class BufferedReader</h3>
+                    <p>Selain menggunakan Class Scanner, kita juga bisa mengambil input dengan Class BufferedReader.</p>
+                    <p>Class BufferedReader tidak bisa bekerja sendirian, dia juga butuh Class InputStreamReader.</p>
+                    <p>Pertama kita harus mengimpor dua Class tersebut dari paket java.io.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>import java.io.InputStreamReader; <br> import java.io.BufferedReader;</p>
+                        </div>
+                    </div>
+                    <p>Setelah itu, baru kita bisa menggunakannya.</p>
+                    <p>Contoh:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>import java.io.InputStreamReader; <br> import java.io.BufferedReader;<br>
+                                <br> fun main(args: Array&lt;String>) {<br> // membuat objek BufferedReader<br> val input = BufferedReader(InputStreamReader(System.`in`))<br> // mengambil input<br> print("input nama: ")<br> val namaku = input.readLine()<br>                                // menampilkan output<br> println("namaku adalah $namaku") }
+                            </p>
+                        </div>
+                    </div>
+                    <p>Itulah tiga cara mengambil input dari keyboard. <br>Mudah bukan?</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-kelima" role="tabpanel" aria-labelledby="v-pills-kelima-tab">
+                    <div class="form-group">
+                        <p>* Nama Harus Diisi</p>
+                        <p>* Pastikan nama yang dimasukkan sesuai</p>
+                        <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" class="form-control" required>
+                        <button type="button" class="btn btn-primary btn-cetak float-right mt-2">Cetak Sertifikat</button>
+                    </div>
+                    <div class="sertifikat">
+                        <h2>Sertifikat</h2>
+                        <h2>Penyelesaian</h2>
+                        <h4>Sertifikat ini menyatakan bahwa</h4>
+                        <h1 id="namaUser"></h1>
+                        <h4>telah berhasil menyelesaikan</h4>
+                        <h4>Belajar Kotlin</h4>
+                        <img src="../../assets/img/bg-sertifikat.svg" width="300" class="float-right mb-3">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+        <p>2021.Belajar Koding</p>
+    </div>
+    <!-- Akhir Footer -->
+    <!-- javascript -->
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/popper.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/ali.js"></script>
+</body>
+
+</html>
