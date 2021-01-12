@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light navigasi">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dongker">
         <div class="container">
             <a class="navbar-brand text-light navigasi" href="home.html">Belajar Koding</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,60 +69,97 @@
         <div class="row mt-5 mb-5 kelas-premium" id="kelas-premium">
             <div class="col-sm">
                 <div class="card kelas-kotlin">
-                    <div class="card-body">
-                        <img src="assets/img/kt-icon.png" width="100" class="mt-5">
-                        <h2 class="mt-5">Kelas Kotlin</h2>
-                        <p><i class="fa fa-dollar"></i> 500.000</p>
-                    </div>
+                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                        <div class="card-body ">
+                            <img src="assets/img/kt-icon.png " width="100 " class="mt-5 ">
+                            <h2 class="mt-5 ">Kelas Kotlin</h2>
+                            <p><i class="fa fa-dollar "></i> 500.000</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card kelas-py">
-                    <div class="card-body">
-                        <img src="assets/img/py-icon.png" width="100" class="mt-5">
-                        <h2 class="mt-5">Kelas Python</h2>
-                        <p><i class="fa fa-dollar"></i> 699.999</p>
-                    </div>
+            <div class="col-sm ">
+                <div class="card kelas-py ">
+                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                        <div class="card-body ">
+                            <img src="assets/img/py-icon.png " width="100 " class="mt-5 ">
+                            <h2 class="mt-5 ">Kelas Python</h2>
+                            <p><i class="fa fa-dollar "></i> 699.999</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card kelas-java">
-                    <div class="card-body">
-                        <img src="assets/img/java-icon.png" width="100" class="mt-5">
-                        <h2 class="mt-5">Kelas Java</h2>
-                        <p><i class="fa fa-dollar"></i> 450.000</p>
-                    </div>
+            <div class="col-sm ">
+                <div class="card kelas-java ">
+                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                        <div class="card-body ">
+                            <img src="assets/img/java-icon.png " width="100 " class="mt-5 ">
+                            <h2 class="mt-5 ">Kelas Java</h2>
+                            <p><i class="fa fa-dollar "></i> 450.000</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Siap Bergabung ?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" id="nama" class="form-control" placeholder="Nama Lengkap" aria-label="Nama Lengkap" aria-describedby="basic-addon1">
+                    <input type="text" id="email" class="form-control mt-2" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+                    <p>Status : </p>
+                    <div class="status">
+                        <input type="radio" name="mhs"> Mahasiswa
+                        <input type="radio" name="mhs"> Pelajar
+                        <input type="radio" name="mhs"> Pekerja
+                        <input type="radio" name="mhs"> Yang Lain
+                    </div>
+                    <input type="text" class="form-control mt-2" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-mulai">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Akhir Konten -->
 
     <!-- Footer  -->
-    <section class="footer">
-        <div class="container p-3 pb-4">
-            <div class="row mt-4">
-                <div class="col-sm">
+    <section class="footer ">
+        <div class="container p-3 pb-4 ">
+            <div class="row mt-4 ">
+                <div class="col-sm ">
                     <h4>Belajar Koding</h4>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm ">
                     <h4>Layanan</h4>
                     <p>Pelajaran</p>
                     <p>Bantuan</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm ">
                     <h4>Ikuti Kami</h4>
                     <table>
                         <tr>
-                            <td><i class="fa fa-twitter"></i></td>
+                            <td><i class="fa fa-twitter "></i></td>
                             <td> Twitter</td>
                         </tr>
                         <tr>
-                            <td><i class="fa fa-facebook"></i></td>
+                            <td><i class="fa fa-facebook "></i></td>
                             <td> Facebook</td>
                         </tr>
                         <tr>
-                            <td><i class="fa fa-github"></i></td>
+                            <td><i class="fa fa-github "></i></td>
                             <td> Github</td>
                         </tr>
                     </table>
@@ -134,9 +171,10 @@
     <!-- Akhir Footer -->
 
     <!-- javascript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript " src="js/jquery.min.js "></script>
+    <script type="text/javascript " src="js/popper.min.js "></script>
+    <script type="text/javascript " src="js/bootstrap.min.js "></script>
+    <script type="text/javascript " src="js/ali.js"></script>
 </body>
 
 </html>
