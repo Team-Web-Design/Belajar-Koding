@@ -128,6 +128,7 @@
 	font-size: 30px
 }
 .kiri{
+	margin-top: 25px;
 	width: 30%;
 	float: left;
 }
@@ -138,14 +139,16 @@
 	float: left;
 	width: 50%;
 	height: 700px;
-	margin-left: 30px;
+	margin-left: -10px;
+	margin-top: 25px;
 }
 .jawaban{
 	width: 100%;
 	height: 300px;
-	background-color: rgb(235, 235, 235);
 	padding-left: 20px;
 	padding-top: 20px;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 5px;
 }
 .teks{
 	width: 95%;
@@ -162,6 +165,9 @@
 .form_pertanyaan{
 	width: 525px;
 }
+.lebar_form{
+	width: 200px;
+}
 .btn_send{
 	float: right;
 	margin-top: 10px;
@@ -171,5 +177,48 @@
 	margin-top: 50px;
 }
 .kanan{
-	padding-left: 20px;
+	float: left;
+	padding-left: 25px;
+	margin-top: 20px;
 }
+.enter{
+	margin-top: 40px;
+}
+.menu:hover{
+	background-color: #b63cdf;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+.active2{
+	background-color: #b63cdf;
+}
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.faq_judul{
+		text-align: center;
+	}
+	.sub_judul{
+		text-align: center;
+	}
+	.pertanyaan{
+		margin-top: 20px;
+		width: 200px;
+		float: left;
+	}
+	.tengah{
+		float: right;
+		width: 50%;
+		height: 700px;
+		margin-left: -10px;
+	}
+	.jawaban{
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		border: 1px solid rgb(221, 221, 221);
+		border-radius: 5px;
+		margin-top: 30px;
+		padding-bottom: 20px;
+	}
+  }

@@ -1,103 +1,127 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Bantuan</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bantuan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/custom_style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="icon" href="assets/img/title-icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/custom_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dongker">
-        <div class="container">
-            <a class="navbar-brand" href="home.html">Belajar Koding</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dongker">
+	  <div class="container">
+		  <a class="navbar-brand" href="#">Belajar Koding</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontak.html">Kontak</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="langganan.html">Langganan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="bantuan.html">Bantuan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profil.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="login.html">Login</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="kontak.html">Kontak</a>
+		      </li>
+		      <li class="nav-item">
+			    <a class="nav-link" href="#">Langganan</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">Bantuan</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Profil</a>
+			  </li>
+			</ul>
+		</div>
+	  </div>
+	</nav>
 
-    <div class="jumbotron jumbotron-fluid jumbo">
-        <div class="container">
-            <h4 class="display-4 faq_judul">FAQ Belajar Koding</h4>
-            <p class="lead sub_judul ">Yang Sering Ditanyakan.</p>
-            <div class="kiri">
-                <!-- List group -->
-                <div class="list-group list-group-flush pertanyaan" id="myList" role="tablist">
-                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#satu" role="tab">Apa itu Belajar Koding ?</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#dua" role="tab">Kenapa harus belajar program ?</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#tiga" role="tab">Apa tujuan Belajar Koding ?</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#empat" role="tab">Apa yang dapat kami terima dari Belajar Koding ?</a>
-                </div>
-            </div>
-            <div class="tengah">
-                <h4>Jawaban</h4>
-                <!-- Tab panes -->
-                <div class="tab-content jawaban">
-                    <div class="tab-pane teks fade show active" id="satu" role="tabpanel">Belajar Koding, adalaha sebuah media pembelajaran baru yang sangat praktis, dimana pembelajaran ini hanya mengikuti silabus pembelajaran dari kami, sehingga proses yang anda dapat akan lebih terstruktur</div>
-                    <div class="tab-pane teks fade" id="dua" role="tabpanel">Skype bisa mempertemukan keluarga yang berbeda tempat, Twitter bisa menjadi tempat komunikasi antar rakyat dan pemimpin yang selama ini terpisah. Produk-produk ini adalah ide yang dieksekusi dengan senjata 'programming'. Kalau kita
-                        punya ide yang bisa bermanfaat, jangan ragu untuk mulai belajar programming.</div>
-                    <div class="tab-pane teks fade" id="tiga" role="tabpanel">Tujuan SekolahKoding bukan untuk sekedar menambah ilmu atau wawasan teman-teman di bidang programming maupun design, tapi menyiapkan bekal, menjadi modal awal, sehingga tidak ada jarak antara kita dan ide yang dimiliki untuk membuat
-                        produk bermanfaat yang bisa membantu banyak orang.</div>
-                    <div class="tab-pane teks fade" id="empat" role="tabpanel">Kamu akan mendapatkan sertifikat kelulusan dari kami untuk anda sebagai lisensi dimana anda telah dianggap sebagai master of program
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <p>Kirimkan pertanyaan :</p>
-                    <div class="form-group form_pertanyaan">
-                        <textarea class="form-control" id="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group btn_send">
-                        <button class="form-control btn btn-color" id="post">Post</button>
-                    </div>
-                    <hr>
-                    <span class="isi_post" id="getmessage"></span>
-                </div>
-            </div>
-            <div class="kanan">
-                <h4>Menu Course</h4>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="js/custom2.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<div class="jumbotron jumbotron-fluid jumbo">
+	  <div class="container">
+	    <h4 class="display-4 faq_judul">FAQ Belajar Koding</h4>
+	    <p class="lead sub_judul ">Yang Sering Ditanyakan.</p>
+	    <div class="kiri">
+			<!-- List group -->
+			<div class="list-group list-group-flush pertanyaan" id="myList" role="tablist">
+			  <a class="list-group-item list-group-item-action active" data-toggle="list" href="#satu" role="tab">Apa itu Belajar Koding ?</a>
+			  <a class="list-group-item list-group-item-action" data-toggle="list" href="#dua" role="tab">Kenapa harus belajar program ?</a>
+			  <a class="list-group-item list-group-item-action" data-toggle="list" href="#tiga" role="tab">Apa tujuan Belajar Koding ?</a>
+			  <a class="list-group-item list-group-item-action" data-toggle="list" href="#empat" role="tab">Apa yang dapat kami terima dari Belajar Koding ?</a>
+			</div>
+		</div>
+	    <div class="tengah">
+	    	<!-- Tab panes -->
+			<div class="tab-content jawaban">
+			  <div class="tab-pane teks fade show active" id="satu" role="tabpanel">Belajar Koding, adalaha sebuah media pembelajaran baru
+				yang sangat praktis, dimana pembelajaran ini hanya
+				mengikuti silabus pembelajaran dari kami, sehingga proses
+				yang anda dapat akan lebih terstruktur</div>
+			  <div class="tab-pane teks fade" id="dua" role="tabpanel">Skype bisa mempertemukan keluarga yang berbeda tempat, Twitter bisa menjadi
+				  tempat komunikasi antar rakyat dan pemimpin yang selama ini terpisah. Produk-produk ini adalah ide yang dieksekusi dengan senjata
+				  'programming'. Kalau kita punya ide yang bisa bermanfaat, jangan ragu untuk mulai belajar programming.</div>
+			  <div class="tab-pane teks fade" id="tiga" role="tabpanel">Tujuan SekolahKoding bukan untuk sekedar menambah ilmu atau wawasan
+				  teman-teman di bidang programming maupun design, tapi menyiapkan bekal, menjadi modal awal,
+				  sehingga tidak ada jarak antara kita dan ide yang dimiliki untuk membuat produk bermanfaat yang bisa membantu banyak orang.</div>
+			  <div class="tab-pane teks fade" id="empat" role="tabpanel">Kamu akan mendapatkan sertifikat kelulusan dari kami untuk anda sebagai
+				  lisensi dimana anda telah dianggap sebagai master of program
+			  </div>
+			</div>
+			<div class="col-md-12 enter">
+				<p>Kirimkan pertanyaan :</p>
+					<div class="form-group form_pertanyaan">
+						<textarea class="form-control" id="message" placeholder="Message"></textarea>
+					</div>
+					<div class="form-group btn_send">
+						<button class="form-control btn btn-color" id="post">Post</button>
+					</div><hr>
+					<span class="isi_post" id="getmessage"></span>
+			</div>
+	    </div>
+	    <div class="kanan">
+	    	<ul class="list-group list-group-flush lebar_form">
+				<a href="#" class="list-group-item-action"><li class="list-group-item menu">Java</li></a>
+				<a href="#" class="list-group-item-action"><li class="list-group-item menu">Kotlin</li></a>
+				<a href="#" class="list-group-item-action"><li class="list-group-item menu">Javascript</li></a>
+				<a href="#" class="list-group-item-action"><li class="list-group-item menu">CSS</li></a>
+			  </ul>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="atas">
+				<div class="judul">
+					<h4>Belajar coding</h4>
+				</div>
+				<div class="layanan">
+					<h4>Layanan</h4>
+					<ul  class="list-group">
+						<li class="list-group-item lis">Pelajaran</li>
+						<li class="list-group-item lis">Bantuan</li>
+					</ul>
+				</div>
+				<div class="ikuti">
+					<h4>Ikuti Kami</h4>
+					<ul  class="list-group">
+						<li class="list-group-item lis">Instagram</li>
+						<li class="list-group-item lis">Facebook</li>
+						<li class="list-group-item lis">Github</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tanggal">
+				<h6>2021.belajar koding</h6>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/custom2.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
