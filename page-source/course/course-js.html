@@ -4,38 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar JavaScript</title>
+    <title>Belajar Javascript</title>
     <!-- css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../alian.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/alian.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="../../../img/title-icon.png" type="image/x-icon">
+    <link rel="icon" href="../../../assets/img/title-icon.png" type="image/x-icon">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dongker">
         <div class="container">
-            <a class="navbar-brand" href="#">Belajar Koding</a>
+            <a class="navbar-brand text-light" href="../../../home.html">Belajar Koding</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link text-muted" href="../../../home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontak</a>
+                        <a class="nav-link text-muted" href="../../../kontak.html">Kontak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Langganan</a>
+                        <a class="nav-link text-muted" href="../../../langganan.html">Langganan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bantuan</a>
+                        <a class="nav-link text-muted" href="../../../bantuan.html">Bantuan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Profile</a>
+                        <a class="nav-link text-muted" href="#">Profile</a>
                     </li>
             </div>
         </div>
@@ -46,35 +46,87 @@
     <div class="container mt-5">
         <div class="row border-bottom pb-3">
             <div class="col-sm">
-                <h1>Dasar JavaScript</h1>
+                <h1>Javascript</h1>
             </div>
             <div class="col-sm-2">
-                <img src="../../../img/js-icon.png" width="100">
+                <img src="../../../assets/img/js-icon.png" width="100">
             </div>
         </div>
 
-        <div class="row mb-4">
-            <div class="col-sm-2 mt-2">
-                <h3>Silabus</h3>
-                <ul>
-                    <li><a href="#">Materi 1</a></li>
-                    <li><a href="#">Materi 2</a></li>
-                    <li><a href="#">Materi 3</a></li>
-                    <li><a href="#">Materi 4</a></li>
-                    <li><a href="#">Materi 5</a></li>
-                </ul>
+        <div class="row mb-4 konten">
+            <div class="nav flex-column nav-pills col-sm-2 mt-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-pertama-tab" data-toggle="pill" href="#v-pills-pertama" role="tab" aria-controls="v-pills-pertama" aria-selected="true">Apa Itu Javascript ? </a>
+                <a class="nav-link" id="v-pills-kedua-tab" data-toggle="pill" href="#v-pills-kedua" role="tab" aria-controls="v-pills-kedua" aria-selected="false">Sejarah Javascript</a>
+                <a class="nav-link" id="v-pills-ketiga-tab" data-toggle="pill" href="#v-pills-ketiga" role="tab" aria-controls="v-pills-ketiga" aria-selected="false">Peralatan</a>
+                <a class="nav-link" id="v-pills-keempat-tab" data-toggle="pill" href="#v-pills-keempat" role="tab" aria-controls="v-pills-keempat" aria-selected="false">Mengenal Console</a>
+                <a class="nav-link" id="v-pills-kelima-tab" data-toggle="pill" href="#v-pills-kelima" role="tab" aria-controls="v-pills-kelima" aria-selected="false">Program Pertama</a>
             </div>
+            <div class="tab-content isi-konten mt-2 col-sm p-5" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-pertama" role="tabpanel" aria-labelledby="v-pills-pertama-tab">
+                    <h2 class="font-weight-bold">Apa itu Javascript ?</h2>
+                    <p>Javascript adalah bahasa pemrograman yang wajib kamu pelajari jika ingin mendalami dunia web development. Saat ini javascript tidak hanya digunakan di sisi client (browser) saja. Javascript juga digunakan pada server, console, program
+                        desktop, mobile, IoT, game, dan lain-lain. Hal ini membuat javascript semakin populer dan menjadi bahasa yang paling banyak digunakan di Github.</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-kedua" role="tabpanel" aria-labelledby="v-pills-kedua-tab">
+                    <h2 class="font-weight-bold">Sejarah Javascript </h2>
+                    <p>Javascript adalah bahasa pemrograman yang awalnya dirancang untuk berjalan di atas browser.</p>
+                    <p>Namun, seiring perkembangan zaman, javascript tidak hanya berjalan di atas browser saja. Javascript juga dapat digunakan pada sisi Server, Game, IoT, Desktop, dsb.</p>
+                    <p>Javascript awalnya bernama Mocha, lalu berubah menjadi LiveScript saat browser Netscape Navigator 2.0 rilis versi beta (September 1995). Namun, setelah itu dinamai ulang menjadi Javascript. 1</p>
+                    <p>Terinspirasi dari kesuksesan Javascript, Microsoft mengadopsi teknologi serupa. Microsoft membuat ‘Javascript’ versi mereka sendiri bernama JScript. Lalu di tanam pada Internet Explorer 3.0.</p>
+                    <p>Hal ini mengakibatkan ‘ perang browser’, karena JScript milik Microsoft berbeda dengan Javascript racikan Netscape.</p>
+                    <p>Akhirnya pada tahun 1996, Netscape mengirimkan standarisasi ECMA-262 ke Ecma International. Sehingga lahirlah standarisasi kode Javascript bernama ECMAScript atau ES. Saat ini ECMAScript sudah mencapai versi 8 (ES8). 2</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-ketiga" role="tabpanel" aria-labelledby="v-pills-ketiga-tab">
+                    <h2 class="font-weight-bold">Peralatan Untuk Belajar Javascript</h2>
+                    <p>Apa saja perlatan yang harus disiapkan untuk belajar Javascript?</p>
+                    <ol>
+                        <li>Web Browser (Google Chrome, Firefox, Opera, dll)</li>
+                        <li>Teks Editor (rekomendasi: VS Code)</li>
+                    </ol>
+                    <p>Itu saja?</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-keempat" role="tabpanel" aria-labelledby="v-pills-keempat-tab">
+                    <h2 class="font-weight-bold">Mengenal Console Javascript</h2>
+                    <p>Ada yang mengatakan, belajar javascript itu susah, karena saat melihat hasilnya di web browser, pesan error-nya tidak tampil. Pendapat ini tidak benar. Karena kita bisa melihatnya melalui console.</p>
+                    <p>Console Javascript dapat kita buka melalui Inspect Element->Console.</p>
+                    <p>Di dalam console, kita bisa menulis fungsi atau kode-kode javascript dan hasilnya akan langsung ditampilkan.</p>
+                    <p>Misalnya, mari kita coba kode berikut:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>console.log("Hi apa kabar!");</p>
+                            <p>alert("Saya sedang belajar javascript");</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-kelima" role="tabpanel" aria-labelledby="v-pills-kelima-tab">
+                    <h2 class="font-weight-bold">Membuat Program Javascript Pertama</h2>
+                    <p>Sudah paham cara membuka dan menggunakan console javascript?</p>
+                    <p>Bagus…</p>
+                    <p>Kalau begitu, mari kita buat program pertama dengan Javascript.</p>
+                    <p>Silahkan buka teks editor, kemudian buat file beru bernama hello_world.html dan isi dengan kode berikut:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            &lt;!DOCTYPE html&gt; <br>&lt;html&gt;<br> &lt;head&gt;
 
-            <div class="col-sm isi-konten mt-2 p-5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in laudantium odio earum dolore eaque provident corrupti eum a ducimus, ex optio inventore, quaerat alias esse. Quibusdam incidunt quaerat eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ullam veritatis dolorum cupiditate distinctio necessitatibus veniam voluptates enim provident vitae animi pariatur iste quod aspernatur! Doloribus corporis rerum dolores ab.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in laudantium odio earum dolore eaque provident corrupti eum a ducimus, ex optio inventore, quaerat alias esse. Quibusdam incidunt quaerat eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ullam veritatis dolorum cupiditate distinctio necessitatibus veniam voluptates enim provident vitae animi pariatur iste quod aspernatur! Doloribus corporis rerum dolores ab.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in laudantium odio earum dolore eaque provident corrupti eum a ducimus, ex optio inventore, quaerat alias esse. Quibusdam incidunt quaerat eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ullam veritatis dolorum cupiditate distinctio necessitatibus veniam voluptates enim provident vitae animi pariatur iste quod aspernatur! Doloribus corporis rerum dolores ab.</p>
-                <a href="#" class="btn btn-primary float-right">Selanjutnya</a>
+                            <br> &lt;title&gt;Hello World Javascript&lt;title&gt;<br> &lt/head&gt;<br> &lt;body&gt; <br>&lt;script&gt; console.log("Saya belajar Javascript"); document.write("Hello World!"); &lt;/script&gt; <br>&lt/body&gt;<br>&lt;/html&gt;
+                        </div>
+                    </div>
+                    <p>Silahkan disimpan dengan nama hello_world.html, kemudian buka file tersebut dengan web browser.</p>
+                    <p>Tadi kita menulis perintah:</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>console.log("Saya belajar Javascript");</p>
+                        </div>
+                    </div>
+                    <p>Mengapa tidak ditampilkan?</p>
+                    <p>Karena perintah atau fungsi console.log() akan menampilkan pesan ke dalam console javascript. Sedangkan perintah document.write() berfungsi untuk menulis ke dokumen HTML, maka dia akan ditampilkan kesana.</p>
+                    <p>Sekarang coba saja buka console javascript.</p>
+                    <p>Maka kita akan melihat pesan "Saya belajar Javascript":</p>
+                </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 
     <!-- footer -->
